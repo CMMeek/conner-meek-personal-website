@@ -1,0 +1,582 @@
+/*
+
+Color Palette
+
+#222222 - black
+#554422 - brown
+#99aaaa - grey
+#223322 - dark green
+#3366aa - blue
+#eeeedd - beige
+
+Text
+#000000 - Black
+#FFFBE8 - off-white
+#FFFFFF - white
+
+Contrast checker:
+https://color.adobe.com/create/color-contrast-analyzer
+
+Color Finder:
+https://paletton.com/#uid=1400u0kllllaFw0g0qFqFg0w0aF
+
+Adobe: 
+https://color.adobe.com/create/color-wheel
+
+Canva: 
+https://www.canva.com/colors/color-palette-generator/
+
+Typography:
+https://explorationsintypography.com/combos/
+
+
+/* All Pages
+------------------------------------------------------------------*/
+
+/* making boxes work */
+
+
+/*
+
+html{
+	box sizing: border-box;
+}
+
+*/
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	background: #FFFBE8;
+	margin: 0;
+}
+
+/* Fonts & text styling */
+
+ h2 {
+	border-bottom:2px solid #000000;
+	border-top: 2px solid #000000;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	line-height:150%;
+	font-weight: 400
+}
+
+.work-summary {
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	line-height:140%;
+	font-weight: 400;
+}
+
+table {
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: 400
+}
+
+h1 {
+	font-family: Playfair Display, serif;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: Playfair Display, serif;
+	font-size: 2em;
+}
+
+h3 {
+	font-family: Playfair Display, serif;
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+.topnav {
+	font-family: Playfair Display, serif;
+	font-size: 1em;
+}
+
+.content-header {
+	line-height: 3em;
+}
+
+.skills {
+	font-family: Helvetica, sans-serif ;
+	line-height: 1.5em;
+}
+
+.caption {
+	font-weight: 600;
+}
+
+/* Footer */
+
+footer {
+	background: #000000;
+	color:#FFFBE8;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 40px;
+}
+
+
+/* links */
+
+a {
+	color:#554422;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+footer a {
+	color: #3366aa;
+}
+
+footer a:hover {
+	color: #FFFBE8;
+}
+
+.btn {
+	background: #3366aa;
+	color: #FFFBE8;
+	text-decoration: none;
+	border-radius: 1px;
+}
+
+/* text position on the screen */
+
+.content-wrapper {
+	margin: 0 auto;
+	padding: 30px;
+	max-width: 900px;
+}
+
+/* header position on screen */
+
+.content-header {
+	text-align: center;
+}
+
+/* top nav position */
+
+.topnav {
+	margin: 0 auto;
+	list-style: none;
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.topnav {
+	text-align: center;
+}
+
+.topnav ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+.topnav a {
+	display: block;
+	text-align: center;
+	width: 150px;
+	text-decoration: none;
+}
+
+/* top nav background */
+
+.topnav {
+	background-color:#000000;
+}
+
+/* top nav links */
+
+.topnav a{
+	float: left;
+	color: #FFFBE8;
+	text-align: center;
+	padding: .5em;
+	text-decoration: none ;
+	font-size: 1em;
+}
+
+/* top nav hover color */
+
+.topnav a:hover {
+	background-color:#3366aa;
+	color: #000000;
+}
+
+/* top nav link color */
+
+.topnav a.active {
+	background-color: #FFFBE8;
+	color: #FFFBE8;
+}
+
+/* Home Page
+------------------------------------------------------------------*/
+
+/* background image */
+
+.home {
+	background: url("images/lisbon-wall.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+/*
+.home {
+	background: url("images/lisbon-wall.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 	
+	background-size: auto;
+	justify-content: center;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+} 
+
+*/
+
+/* i do not know what this does */
+
+.home .content-wrapper {
+	flex: 1 0 auto;
+}
+
+/* trying to figure out how to get the screen to size auto (so top nav and such doesnt disappear)
+added "backround-size auto" but no effect */
+
+.content-background {
+	background-color: #FFFBE8;
+	opacity: .8;
+	padding: 30px;
+}
+
+#statementofpurpose {
+	border: 1px solid;
+	text-align: center;
+}
+
+
+
+
+/* WRITING SAMPLES
+-----------------------------------------------------------------------------------------*/
+
+/* background image */
+
+.writing-sample {
+	background: url("images/sea.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+
+	/*
+	image-resolution: 300dpi;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	background-size: auto;
+	justify-content: center; */
+}
+
+/* i do not know what this does */
+
+.writing-sample .content-wrapper {
+	flex: 1 0 auto;
+}
+
+/* i do not know what this does */
+
+.content-background {
+	background-color: #FFFBE8;
+	opacity: .8;
+	padding: 30px;
+}
+
+/* table */
+
+table, tr, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: left;
+	padding: 10px;
+}
+th {
+	text-align: center;
+	padding: 10px;
+}
+
+/* table links */
+
+
+/* PERSONALS
+--------------------------------------------------------------------------------------*/
+
+/* image + gallery formating */
+
+.personals .content-wrapper {
+	flex: 1 0 auto;
+}
+
+.photo-column {
+	border: 1px solid #000000;
+}
+
+.photo-column:hover {
+	border: 1px solid #3366aa;
+}
+
+.photo-column img {
+	width: 100%;
+	height: auto;
+}
+
+.caption {
+	padding: 15px;
+	text-align: center;
+}
+
+.photo-column {
+	box-sizing: border-box;
+}
+
+.photo-row {
+	display: flex;
+}
+
+.photo-column {
+	flex: 20%;
+	padding: 5px;
+}
+
+/* text formating */
+
+.gallery-text {
+	padding: 30px;
+}
+
+
+/* probably not needed
+
+.merritt-row {
+	padding: 0 5px;
+	float: left;
+	width: 100%;
+}
+
+
+@media only screen and (max-width: 700px) {
+.merritt {
+	width: 50%;
+	margin: 5px 0;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.merritt {
+	width: 100%;
+}
+}
+
+.clear:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+*/ 
+
+/* RESUME
+----------------------------------------------------------------------------------------*/
+
+/* image not working
+
+.resume header :: before {
+	background: url("images/lisbon-wall.jpeg") center ;
+	background-size: cover;
+	content: "";
+	display: block;
+	height:375px;
+}
+
+.resume-img{
+	width: 20em;
+}
+
+*/
+
+/* headers, image, links */
+
+.resume{
+	background: #FFFBE8;
+}
+
+.resume-h2 {
+	text-align: center;
+}
+
+.resume-img img {
+	width: 100%;
+}
+
+.resume-section {
+	margin-bottom: 50px;
+}
+
+/* 
+
+ .resume-section h2 {
+	border-bottom:2px solid #000000;
+	border-top: 2px solid #000000;
+}
+
+*/
+
+.download-link {
+	position: fixed;
+	top: 5px;
+	left: 5px;
+}
+
+/* profile */
+
+.project-item {
+	display:flow-root;
+	margin: 30px 0;
+}
+.project-item img {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+/* projects (empty) */
+
+
+
+/* work expereince */
+
+.work-item {
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 5% 0;
+	
+	/*
+
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	column-gap: 20px;
+
+	*/
+}
+
+/* adding alignment of columns */
+
+.work-summary { 
+	width: 75%;
+ }
+
+.work-details {
+	width: 25%;
+}
+
+
+/* education */
+
+.pratt {
+	padding: 15px;
+}
+
+.ku {
+	padding: 15px
+}
+
+.cimba {
+	padding: 15px
+}
+
+/* skills */
+
+#skills {
+	columns: 2;
+}
+
+#skills {
+	border: 2px solid #000000;
+	padding: 1em;
+}
+
+/* CODE GRAVEYARD
+----------------------------------------------------------------------------------------*/
+
+/* 
+
+.skills {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+*/
+
+/* if I want to add icons to footer: 
+
+.socials {
+	list-style-type: none;
+	padding: 30px ;
+}
+.socials li {
+	display: inline-block;
+	margin-left: 10px;
+}
+.socials img {
+	width: 30px;
+
+}
+.socials img:hover {
+	opacity: .5;
+}
+
+*/
+
+
+
+
+
+
+
+
+
