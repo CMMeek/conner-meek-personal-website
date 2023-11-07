@@ -539,39 +539,6 @@ th {
 	padding: 1em;
 }
 
-/* CODE GRAVEYARD
-----------------------------------------------------------------------------------------*/
-
-/* 
-
-.skills {
-	display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-*/
-
-/* if I want to add icons to footer: 
-
-.socials {
-	list-style-type: none;
-	padding: 30px ;
-}
-.socials li {
-	display: inline-block;
-	margin-left: 10px;
-}
-.socials img {
-	width: 30px;
-
-}
-.socials img:hover {
-	opacity: .5;
-}
-
-*/
-
 
 
 
