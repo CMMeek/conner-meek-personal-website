@@ -3,9 +3,6 @@
 Color Palette
 
 #222222 - black
-#554422 - brown
-#99aaaa - grey
-#223322 - dark green
 #3366aa - blue
 #eeeedd - beige
 
@@ -14,35 +11,10 @@ Text
 #FFFBE8 - off-white
 #FFFFFF - white
 
-Contrast checker:
-https://color.adobe.com/create/color-contrast-analyzer
-
-Color Finder:
-https://paletton.com/#uid=1400u0kllllaFw0g0qFqFg0w0aF
-
-Adobe: 
-https://color.adobe.com/create/color-wheel
-
-Canva: 
-https://www.canva.com/colors/color-palette-generator/
-
-Typography:
-https://explorationsintypography.com/combos/
-
 
 /* All Pages
 ------------------------------------------------------------------*/
 
-/* making boxes work */
-
-
-/*
-
-html{
-	box sizing: border-box;
-}
-
-*/
 
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -245,30 +217,9 @@ footer a:hover {
 	flex-direction: column;
 }
 
-
-
-/*
-.home {
-	background: url("images/lisbon-wall.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover; 	
-	background-size: auto;
-	justify-content: center;
-	background-position: center;
-	display: flex;
-	flex-direction: column;
-} 
-
-*/
-
-/* i do not know what this does */
-
 .home .content-wrapper {
 	flex: 1 0 auto;
 }
-
-/* trying to figure out how to get the screen to size auto (so top nav and such doesnt disappear)
-added "backround-size auto" but no effect */
 
 .content-background {
 	background-color: #FFFBE8;
@@ -297,24 +248,11 @@ added "backround-size auto" but no effect */
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
-
-	/*
-	image-resolution: 300dpi;
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	background-size: auto;
-	justify-content: center; */
 }
-
-/* i do not know what this does */
 
 .writing-sample .content-wrapper {
 	flex: 1 0 auto;
 }
-
-/* i do not know what this does */
 
 .content-background {
 	background-color: #FFFBE8;
@@ -387,55 +325,8 @@ th {
 	padding: 30px;
 }
 
-
-/* probably not needed
-
-.merritt-row {
-	padding: 0 5px;
-	float: left;
-	width: 100%;
-}
-
-
-@media only screen and (max-width: 700px) {
-.merritt {
-	width: 50%;
-	margin: 5px 0;
-}
-}
-
-@media only screen and (max-width: 500px) {
-.merritt {
-	width: 100%;
-}
-}
-
-.clear:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-*/ 
-
 /* RESUME
 ----------------------------------------------------------------------------------------*/
-
-/* image not working
-
-.resume header :: before {
-	background: url("images/lisbon-wall.jpeg") center ;
-	background-size: cover;
-	content: "";
-	display: block;
-	height:375px;
-}
-
-.resume-img{
-	width: 20em;
-}
-
-*/
 
 /* headers, image, links */
 
@@ -454,15 +345,6 @@ th {
 .resume-section {
 	margin-bottom: 50px;
 }
-
-/* 
-
- .resume-section h2 {
-	border-bottom:2px solid #000000;
-	border-top: 2px solid #000000;
-}
-
-*/
 
 .download-link {
 	position: fixed;
@@ -493,14 +375,6 @@ th {
     flex-direction: row;
     width: 100%;
     margin: 5% 0;
-	
-	/*
-
-	display: grid;
-	grid-template-columns: 300px 1fr;
-	column-gap: 20px;
-
-	*/
 }
 
 /* adding alignment of columns */
@@ -539,11 +413,6 @@ th {
 	padding: 1em;
 }
 
-
-
-
-
-
-
-
+/* CODE GRAVEYARD
+----------------------------------------------------------------------------------------*/
 
